@@ -928,15 +928,15 @@ def gamv_2d(df, xcol, ycol, vcol, nlag, lagdist, azi, atol, bstand):
     be available in PATH or working directory).
 
     :param df: dataframe
-    :param xcol: TODO
-    :param ycol: TODO
-    :param vcol: TODO
-    :param nlag: TODO
-    :param lagdist: TODO
-    :param azi: TODO
-    :param atol: TODO
+    :param xcol: data for x-axis
+    :param ycol: data for y-axis
+    :param vcol: color, sequence, or sequence of color
+    :param nlag: the number of lags to compute the sample variogram
+    :param lagdist: the distance per lag
+    :param azi: azimuth is the measured angle from the y-axis, clockwise.
+    :param atol: angle-tolerance
     :param bstand: TODO
-    :return: TODO
+    :return: list
     """
     lag = []
     gamma = []
